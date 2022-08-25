@@ -1,0 +1,134 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto';
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ESTILOS DEL HEADER */
+
+header{
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.sectUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.aNav{
+    color:#F3F3F3;
+    padding-left: 13px;
+    text-decoration: none;
+}
+
+/* ESTILOS SECCION AL LADO DEL MAIN */
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Sección del main del lado izquierdo */
+.sectLeft{
+    background-image: url(/root/img/delivery.jpg);
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 350px;
+    margin: 35px 5px 35px 0px;
+    padding: 20px 20px;
+    width: 490px;
+}
+
+/* Sección del main del lado derecho */
+.sectRigth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 350px;
+    margin: 35px 0px 35px 0px;
+    width: 490px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+    margin-bottom: 0%;
+    font-weight: 700;
+}
+
+.sec01Rigth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 385px;
+    height: 250px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+    padding-left: 18px;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+
+.liMain{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.imgSec01Rigth{
+    margin-right: 20px;
+}
+
+/* ESTILOS DEL FOOTER */
+
+footer{
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 42px 20px 20px;
+}
+
+.ulFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.liFooter{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.aFooter{
+    color:#F3F3F3;
+    text-decoration: none;
+}
